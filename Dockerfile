@@ -1,5 +1,4 @@
-FROM ubuntu
-ARG DEBIAN_FRONTEND=noninteractive
+FROM developeranaz/qbittorrent2rclone:beta1
 RUN apt update; apt upgrade -y
 RUN apt install curl wget golang zip unzip nginx -y
 COPY scriptplusconf /scriptplusconf
