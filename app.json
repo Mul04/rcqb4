@@ -6,15 +6,15 @@
   "env": {
       "RCLONE_CONFIG_IN_RAW_URL": {
       "description": "Paste rclone config in RAW url (use githubgist secret)",
-      "value": "http://raw..gist../rclone.conf"
+      "value": "https://gist.githubusercontent.com/Mul04/10a1230cc9761ea3b26855bdee3cacfe/raw/rclone.conf"
     },
       "password": {
       "description": "Torrent downloader website password",
-      "value": "Enter your new password here"
+      "value": "tvkk"
     },
       "username": {
       "description": "Torrent downloader website username",
-      "value": "Enter your new username here"
+      "value": "tvkk"
     }
 
 
