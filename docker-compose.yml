@@ -1,0 +1,7 @@
+version: '3'
+services:
+  rcqb:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: result/latest
